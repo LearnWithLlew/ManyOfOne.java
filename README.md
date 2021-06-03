@@ -5,8 +5,8 @@
 
 ## Starting Point
 
-The tests in [SampleTests](https://github.com/approvals/ApprovalTests.java.StarterProject/blob/master/src/test/java/org/samples/SampleTests.java) should pass, and then you should delete/modify as needed to get started.
-
+Start at[Test1](https://github.com/LearnWithLlew/ManyOfOne.java/blob/main/src/test/java/org/manyofone/Test1_InMethod.java)
+and follow the instructions.
 
 Notes:
 
