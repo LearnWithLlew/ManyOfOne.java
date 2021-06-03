@@ -9,14 +9,10 @@ public class Test2_PassingArrays {
         @Test
         public void test1()
         {
-            assertEquals("#1\n", merge("#", 1));
+            assertEquals("#1\n", Exercise2.merge("#", 1));
         }
 
-        public static String merge(String prefix, int number)
-        {
-            return prefix + number + "\n";
-        }
-        // @Test
+    // @Test
         public void Test2()
         {
             var expected = """
@@ -26,7 +22,7 @@ public class Test2_PassingArrays {
                 #4
                 #5
             """;
-            assertEquals(expected, merge("#", 1 /*,2,3,4,5*/));
+            assertEquals(expected, Exercise2.merge("#", 1 /*,2,3,4,5*/));
         }
 
     }
