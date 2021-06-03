@@ -4,6 +4,6 @@ public class Exercise3 {
     public static  String format(int number) {
         return "#" + number;
     }
-    public static class Options {
+    public static class FormatOptions {
     }
 }
