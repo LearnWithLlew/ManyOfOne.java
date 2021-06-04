@@ -20,8 +20,8 @@ public class Test3_PassingObjects {
     @Test
     public void test3AllowForCustomSuffix() {
         var expected = "#1)";
-//        var actual =  Exercise3.format(1 , new FormatOptions(){{suffix = ")";}});
-//        assertEquals(expected,actual);
+        var actual =  Exercise3.format(1 , new FormatOptions(){{suffix = ")";}});
+        assertEquals(expected,actual);
     }
 
     @Test
