@@ -8,7 +8,7 @@ public class Exercise1 {
         String output = "";
         int[] number1 = {1};
         for (int i : number1) {
-            output += number1[0] + ",";
+            output += i + ",";
 
         }
         var number2 = 2;
