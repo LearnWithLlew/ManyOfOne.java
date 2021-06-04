@@ -9,8 +9,8 @@ public class Test4_ApprovalTests {
      * Convert verify to many of one
      */
     public void testFizzBuzz() {
-        Integer number = 1;
-        var result = FizzBuzz(number);
+        Integer[] number = {1};
+        var result = FizzBuzz(number[0]);
         Approvals.verify(result);
     }
 
