@@ -13,8 +13,8 @@ public class Test3_PassingObjects {
     @Test
     public void test2AllowForCustomPrefix() {
         var expected = "*1";
-        // var actual = Exercise3.format(1 , new FormatOptions(){{prefix = "*";}});
-        //assertEquals(expected, );
+         var actual = Exercise3.format(1 , new FormatOptions(){{prefix = "*";}});
+        assertEquals(expected, actual);
     }
 
     @Test

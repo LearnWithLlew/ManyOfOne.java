@@ -2,10 +2,10 @@ package org.manyofone;
 
 public class FormatOptions {
 
-    public String perfix = "#";
+    public String prefix = "#";
 
     public String getPrefix() {
-        return perfix;
+        return prefix;
 
     }
 }
