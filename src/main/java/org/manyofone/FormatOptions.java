@@ -8,4 +8,8 @@ public class FormatOptions {
         return prefix;
 
     }
+
+    public String getSuffix() {
+        return "";
+    }
 }
