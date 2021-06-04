@@ -3,7 +3,7 @@ package org.manyofone;
 public class FormatOptions {
 
     public String prefix = "#";
-    private String suffix;
+    private String suffix = "";
 
     public String getPrefix() {
         return prefix;
@@ -11,7 +11,6 @@ public class FormatOptions {
     }
 
     public String getSuffix() {
-        suffix = "";
         return suffix;
     }
 }
