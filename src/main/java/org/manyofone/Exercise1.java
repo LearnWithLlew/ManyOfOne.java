@@ -6,8 +6,8 @@ public class Exercise1 {
      */
     public static  String printPrimes() {
         String output = "";
-        var number1 = 1;
-        output += number1 + ",";
+        int[] number1 = {1};
+        output += number1[0] + ",";
         var number2 = 2;
         output += number2 + ",";
         var number3 = 3;
