@@ -27,8 +27,8 @@ public class Test3_PassingObjects {
     @Test
     public void test3AllowForCustomPrefixAndSuffix() {
         var expected = "<li>1</li>";
-        //var actual = new FormatOptions(){{prefix = "<li>";suffix = "</li>";}};
-        //assertEquals(expected, Exercise3.format(1 , actual));
+        var actual = new FormatOptions(){{prefix = "<li>";suffix = "</li>";}};
+        assertEquals(expected, Exercise3.format(1 , actual));
     }
 
 
