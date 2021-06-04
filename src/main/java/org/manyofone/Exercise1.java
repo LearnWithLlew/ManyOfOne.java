@@ -6,19 +6,19 @@ public class Exercise1 {
      */
     public static  String printPrimes() {
         String output = "";
-        int number1 = 1;
+        var number1 = 1;
         output += number1 + ",";
-        int number2 = 2;
+        var number2 = 2;
         output += number2 + ",";
-        int number3 = 3;
+        var number3 = 3;
         output += number3 + ",";
-        int number4 = 5;
+        var number4 = 5;
         output += number4 + ",";
-        int number5 = 7;
+        var number5 = 7;
         output += number5 + ",";
-        int number6 = 11;
+        var number6 = 11;
         output += number6 + ",";
-        int number7 = 13;
+        var number7 = 13;
         output += number7 + ",";
         return output;
     }
@@ -28,19 +28,19 @@ public class Exercise1 {
      */
     public static  String printNumbersUpTo7() {
         String output = "";
-        int number1 = 1;
+        var number1 = 1;
         output += number1 + ",";
-        int number2 = 2;
+        var number2 = 2;
         output += number2 + ",";
-        int number3 = 3;
+        var number3 = 3;
         output += number3 + ",";
-        int number4 = 4;
+        var number4 = 4;
         output += number4 + ",";
-        int number5 = 5;
+        var number5 = 5;
         output += number5 + ",";
-        int number6 = 6;
+        var number6 = 6;
         output += number6 + ",";
-        int number7 = 7;
+        var number7 = 7;
         output += number7 + ",";
         return output;
     }
