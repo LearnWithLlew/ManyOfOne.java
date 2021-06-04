@@ -12,18 +12,22 @@ public class Test2_PassingArrays {
             assertEquals("#1\n", Exercise2.merge("#", 1));
         }
 
-    // @Test
-        public void Test2()
+       @Test
+        public void testManyNumbers()
         {
-            var expected = """
+            var expected = removeIndentation("""
                 #1
                 #2
                 #3
                 #4
                 #5
-            """;
-            assertEquals(expected, Exercise2.merge("#", 1 /*,2,3,4,5*/));
+            """);
+            // assertEquals(expected, Exercise2.merge("#", 1 ,2,3,4,5));
         }
 
+    private static String removeIndentation(String s) {
+            return s.replaceAll("    ","");
     }
+
+}
 

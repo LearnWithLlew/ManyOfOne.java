@@ -8,7 +8,7 @@ public class Test4_ApprovalTests {
     /**
      * Convert verify to many of one
      */
-    public void TestFizzBuzz() {
+    public void testFizzBuzz() {
         Integer number = 1;
         var result = FizzBuzz(number);
         Approvals.verify(result);
