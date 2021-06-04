@@ -25,7 +25,7 @@ public class Test2_PassingArrays {
                 #4
                 #5
             """);
-            // assertEquals(expected, Exercise2.merge("#", 1 ,2,3,4,5));
+            assertEquals(expected, Exercise2.merge("#", 1 ,2,3,4,5));
         }
 
     private static String removeIndentation(String s) {

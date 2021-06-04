@@ -5,7 +5,7 @@ public class Exercise2 {
         String output = "";
         for (int i : number) {
 
-            output = prefix + number[0] + "\n";
+            output += prefix + i + "\n";
         }
         return output;
     }
