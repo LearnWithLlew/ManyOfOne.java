@@ -1,6 +1,7 @@
 package org.manyofone;
 
 import org.approvaltests.Approvals;
+import org.approvaltests.legacycode.Range;
 import org.junit.jupiter.api.Test;
 
 public class Test4_ApprovalTests {
@@ -9,7 +10,7 @@ public class Test4_ApprovalTests {
      * Convert verify to many of one
      */
     public void testFizzBuzz() {
-        Integer[] number = {1};
+        Integer[] number = Range.get(1,1);
         Approvals.verifyAll("", number, n -> FizzBuzz(n));
     }
 
