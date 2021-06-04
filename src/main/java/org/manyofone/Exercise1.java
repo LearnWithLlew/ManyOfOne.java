@@ -20,8 +20,11 @@ public class Exercise1 {
      */
     public static String printNumbersUpTo7() {
         String output = "";
-        var number1 = 1;
-        output += number1 + ",";
+        for (int i = 0; i < 1; i++) {
+            var number1 = 1;
+            output += number1 + ",";
+
+        }
         var number2 = 2;
         output += number2 + ",";
         var number3 = 3;
