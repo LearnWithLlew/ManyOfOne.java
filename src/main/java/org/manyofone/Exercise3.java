@@ -7,6 +7,6 @@ public class Exercise3 {
     }
 
     public static String format(int number, FormatOptions options) {
-        return options.getPrefix() + number;
+        return options.getPrefix() + number + "";
     }
 }
