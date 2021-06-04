@@ -11,7 +11,7 @@ public class Test4_ApprovalTests {
     public void testFizzBuzz() {
         Integer[] number = {1};
         var result = FizzBuzz(number[0]);
-        Approvals.verify(result);
+        Approvals.verifyAll("", number, n -> FizzBuzz(n));
     }
 
     private String FizzBuzz(int number) {
