@@ -22,7 +22,7 @@ public class Exercise1 {
         String output = "";
         for (int i = 1; i <= 1; i++) {
             var number1 = 1;
-            output += number1 + ",";
+            output += i + ",";
 
         }
         var number2 = 2;
