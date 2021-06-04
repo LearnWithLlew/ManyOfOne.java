@@ -24,7 +24,7 @@ public class Exercise1 {
             output += i + ",";
 
         }
-        
+
         return output;
     }
 }
