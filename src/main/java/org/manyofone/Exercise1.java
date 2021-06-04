@@ -21,7 +21,6 @@ public class Exercise1 {
     public static String printNumbersUpTo7() {
         String output = "";
         for (int i = 1; i <= 1; i++) {
-            var number1 = 1;
             output += i + ",";
 
         }
