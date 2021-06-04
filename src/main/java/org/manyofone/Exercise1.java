@@ -6,13 +6,12 @@ public class Exercise1 {
      */
     public static String printPrimes() {
         String output = "";
-        int[] number1 = {1};
+        int[] number1 = {1,2};
         for (int i : number1) {
             output += i + ",";
 
         }
-        var number2 = 2;
-        output += number2 + ",";
+
         var number3 = 3;
         output += number3 + ",";
         var number4 = 5;
