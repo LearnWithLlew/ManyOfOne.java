@@ -4,10 +4,13 @@ public class Exercise1 {
     /**
      * Convert variable to many of one
      */
-    public static  String printPrimes() {
+    public static String printPrimes() {
         String output = "";
         int[] number1 = {1};
-        output += number1[0] + ",";
+        for (int i : number1) {
+            output += number1[0] + ",";
+
+        }
         var number2 = 2;
         output += number2 + ",";
         var number3 = 3;
@@ -26,7 +29,7 @@ public class Exercise1 {
     /**
      * Convert statement to loop of many of one
      */
-    public static  String printNumbersUpTo7() {
+    public static String printNumbersUpTo7() {
         String output = "";
         var number1 = 1;
         output += number1 + ",";
